@@ -5,18 +5,9 @@ export default {
   title: 'Components/Button',
   component: Button,
   args: {
-    children: 'Lorem ipsum',
-    size: 'md',
+    children: 'Create account',
   },
-  argTypes: {
-    size: {
-      options: ['sm', 'md', 'lg'],
-      control: {
-        type: 'inline-radio',
-      },
-    },
-  },
+  argTypes: {},
 } as Meta<ButtonProps>;
 
 export const Default: StoryObj<ButtonProps> = {};
-
