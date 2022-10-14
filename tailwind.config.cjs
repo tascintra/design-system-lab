@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/**/*.tsx',
-  ],
+  content: ['./src/**/*.tsx'],
   theme: {
     fontSize: {
       xs: 14,
@@ -14,8 +12,8 @@ module.exports = {
     },
 
     colors: {
-      'black': '000',
-      'white': 'FFF',
+      black: '000',
+      white: 'FFF',
 
       gray: {
         500: '#121214',
@@ -29,13 +27,16 @@ module.exports = {
         100: '#81D8F7',
         200: '#92DEF7',
         300: '#A7E8FA',
-      }
+      },
     },
     extend: {
       fontFamily: {
-        sans: 'Inter, sans-serif'
+        sans: 'Inter, sans-serif',
+      },
+      boxShadow: {
+        '3xl': '0 0px 15px 0px #81D8F7',
       },
     },
   },
   plugins: [],
-}
+};
