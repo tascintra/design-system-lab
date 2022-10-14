@@ -45,7 +45,7 @@ export function App() {
             <Text size='sm' className='text-gray-200'>Lembrar de mim por 30 dias</Text>
           </label>
 
-          <Button type="submit"></Button>
+          <Button type="submit">Entrar na plataforma</Button>
         </form>
       </div>
     </>
