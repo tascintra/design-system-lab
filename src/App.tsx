@@ -1,4 +1,5 @@
 import { Heading } from './components/Heading';
+import { Text } from './components/Text';
 import './styles/global.css';
 import { Logo } from './styles/Logo';
 
@@ -11,6 +12,8 @@ export function App() {
         <Heading size='lg'>
           Ignite Lab
         </Heading>
+
+        <Text size='lg' className='text-gray-300'>Faça login e comece a usar!</Text>
       </div>
     </>
   )
