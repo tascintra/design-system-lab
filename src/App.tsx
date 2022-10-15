@@ -11,9 +11,8 @@ export function App() {
   return (
     <>
       <div className="w-screen h-screen bg-gray-500 flex flex-col items-center justify-center text-gray-100">
-        <div className="relative w-full max-w-lg rounded before:absolute before:inset-0 before:z-0 before:w-[552px] before:h-[788px] before:rounded before:bg-gradient-to-b before:from-gradient-st before:to-gradient-end before:blur-lg">
-          <div className="relative w-[552px] h-[788px] flex flex-col items-center justify-center rounded bg-gradient-to-b p-1 from-gradient-st to-gradient-end">
-            <div className="h-full w-full rounded flex flex-col items-center justify-center bg-gray-500">
+          <div className="relative w-[552px] h-[788px] flex flex-col items-center justify-center rounded bg-gradient-to-b p-1 from-gradient-st to-gradient-end before:absolute before:inset-0 before:w-[552px] before:h-[788px] before:rounded before:bg-gradient-to-b before:from-gradient-st before:to-gradient-end before:blur-lg">
+            <div className="h-full w-full rounded flex flex-col items-center justify-center bg-gray-500 z-0">
               <header className="flex flex-col items-center">
                 <Logo />
                 <Heading size="lg" className="mt-4">
@@ -56,7 +55,6 @@ export function App() {
               </footer>
             </div>
           </div>
-        </div>
       </div>
     </>
   )
