@@ -29,6 +29,11 @@ module.exports = {
         200: '#9BE1FB',
         300: '#B3EDFD',
       },
+
+      gradient: {
+        st: '#36D1DC',
+        end: '#5B86E5',
+      }
     },
     extend: {
       fontFamily: {
