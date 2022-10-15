@@ -11,48 +11,50 @@ export function App() {
   return (
     <>
       <div className="w-screen h-screen bg-gray-500 flex flex-col items-center justify-center text-gray-100">
-        <div className="w-[552px] h-[788px] flex flex-col items-center justify-center rounded bg-gradient-to-b p-1 from-gradient-st to-gradient-end">
-          <div className="h-full w-full rounded flex flex-col items-center justify-center bg-gray-500">
-            <header className="flex flex-col items-center">
-              <Logo />
-              <Heading size="lg" className="mt-4">
-                Ignite Lab
-              </Heading>
-              <Text size="lg" className="text-gray-300 mt-1">Faça login e comece a usar!</Text>
-            </header>
-            <form className="flex flex-col gap-4 items-stretch w-full max-w-[400px] mt-10">
-              <label htmlFor="email" className="flex flex-col gap-3">
-                <Text className="font-semibold">Endereço de e-mail</Text>
-                <TextInput.Root>
-                  <TextInput.Icon>
-                    <Envelope />
-                  </TextInput.Icon>
-                  <TextInput.Input type="email" id="email" placeholder="Digite seu e-mail"/>
-                </TextInput.Root>
-              </label>
-              <label htmlFor="password" className="flex flex-col gap-3">
-                <Text className="font-semibold">Sua senha</Text>
-                <TextInput.Root>
-                  <TextInput.Icon>
-                    <Lock />
-                  </TextInput.Icon>
-                  <TextInput.Input type="password" id="password" placeholder="************"/>
-                </TextInput.Root>
-              </label>
-              <label htmlFor="remember" className="flex items-center gap-2">
-                <Checkbox id="remember" />
-                <Text size="sm" className="text-gray-200">Lembrar de mim por 30 dias</Text>
-              </label>
-              <Button type="submit" className="mt-4">Entrar na plataforma</Button>
-            </form>
-            <footer className="flex flex-col items-center gap-4 mt-8">
-              <Text asChild size="sm">
-                <a href="" className="text-gray-300 underline hover:text-gray-200 transition">Esqueceu sua senha?</a>
-              </Text>
-              <Text asChild size="sm">
-                <a href="" className="text-gray-300 underline hover:text-gray-200 transition">Não possui conta? Crie uma agora!</a>
-              </Text>
-            </footer>
+        <div className="relative w-full max-w-lg rounded before:absolute before:inset-0 before:z-0 before:w-[552px] before:h-[788px] before:rounded before:bg-gradient-to-b before:from-gradient-st before:to-gradient-end before:blur-lg">
+          <div className="relative w-[552px] h-[788px] flex flex-col items-center justify-center rounded bg-gradient-to-b p-1 from-gradient-st to-gradient-end">
+            <div className="h-full w-full rounded flex flex-col items-center justify-center bg-gray-500">
+              <header className="flex flex-col items-center">
+                <Logo />
+                <Heading size="lg" className="mt-4">
+                  Ignite Lab
+                </Heading>
+                <Text size="lg" className="text-gray-300 mt-1">Faça login e comece a usar!</Text>
+              </header>
+              <form className="flex flex-col gap-4 items-stretch w-full max-w-[400px] mt-10">
+                <label htmlFor="email" className="flex flex-col gap-3">
+                  <Text className="font-semibold">Endereço de e-mail</Text>
+                  <TextInput.Root>
+                    <TextInput.Icon>
+                      <Envelope />
+                    </TextInput.Icon>
+                    <TextInput.Input type="email" id="email" placeholder="Digite seu e-mail"/>
+                  </TextInput.Root>
+                </label>
+                <label htmlFor="password" className="flex flex-col gap-3">
+                  <Text className="font-semibold">Sua senha</Text>
+                  <TextInput.Root>
+                    <TextInput.Icon>
+                      <Lock />
+                    </TextInput.Icon>
+                    <TextInput.Input type="password" id="password" placeholder="************"/>
+                  </TextInput.Root>
+                </label>
+                <label htmlFor="remember" className="flex items-center gap-2">
+                  <Checkbox id="remember" />
+                  <Text size="sm" className="text-gray-200">Lembrar de mim por 30 dias</Text>
+                </label>
+                <Button type="submit" className="mt-4">Entrar na plataforma</Button>
+              </form>
+              <footer className="flex flex-col items-center gap-4 mt-8">
+                <Text asChild size="sm">
+                  <a href="" className="text-gray-300 underline hover:text-gray-200 transition">Esqueceu sua senha?</a>
+                </Text>
+                <Text asChild size="sm">
+                  <a href="" className="text-gray-300 underline hover:text-gray-200 transition">Não possui conta? Crie uma agora!</a>
+                </Text>
+              </footer>
+            </div>
           </div>
         </div>
       </div>
