@@ -11,7 +11,7 @@ export function App() {
   return (
     <>
       <div className="w-screen h-screen bg-gray-500 bg-cover flex flex-col items-center justify-center text-gray-100">
-          <div className="relative w-[552px] h-[788px] flex flex-col items-center justify-center rounded bg-gradient-to-b p-1 from-gradient-st to-gradient-end before:absolute before:inset-0 before:w-full before:h-full before:rounded before:bg-gradient-to-b before:from-gradient-st before:to-gradient-end before:blur-lg before:animate-pulse">
+          <div className="relative w-[552px] h-[788px] flex flex-col items-center justify-center rounded bg-gradient-to-b p-1 from-gradient-st to-gradient-end via-gradient-mid before:absolute before:inset-0 before:w-full before:h-full before:rounded before:bg-gradient-to-b before:from-gradient-st before:to-gradient-end before:via-gradient-mid before:blur-lg  before:animate-pulse animate-perl before:-scale-100">
             <div className="h-full w-full rounded flex flex-col items-center justify-center bg-gray-500 z-0">
               <header className="flex flex-col items-center">
                 <Logo />
