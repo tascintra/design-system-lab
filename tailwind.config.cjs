@@ -43,23 +43,6 @@ module.exports = {
       boxShadow: {
         '3xl': '0 0px 15px 0px #81D8F7',
       },
-      animation: {
-        perl: 'perl 3s ease infinite'
-      },
-      keyframes: {
-        perl: {
-          '0%': {
-            'background-position': '0% 50%'
-          },
-          '50%': {
-            'background-position': '100% 50%'
-          },
-          '100%': {
-            'background-position': '0% 50%'
-          },
-
-        },
-      },
     },
   },
   plugins: [],
