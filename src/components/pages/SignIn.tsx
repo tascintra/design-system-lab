@@ -1,4 +1,4 @@
-import { Checkbox } from '@radix-ui/react-checkbox';
+import { Checkbox } from '../Checkbox';
 import { Envelope, Lock } from 'phosphor-react';
 import axios from 'axios';
 import { Logo } from '../../styles/Logo';
