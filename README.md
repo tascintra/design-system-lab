@@ -53,6 +53,7 @@ This project was built using following technologies:
 - TypeScript
 - Tailwind
 - Storybook
+- Figma
 
 <br>
 
