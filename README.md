@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 <h1 align="center">Design System Lab - Ignite </h1>
 
 <p align="center">
@@ -99,9 +97,7 @@ Now next goal is to improve my JavaScript skills so I can go deeper learning Rea
 #### :memo: License
 
 This project is under a MIT license.
-=======
-=======
->>>>>>> ca37c1c3ccbf4e4a1b766ca844244dd7b95b7e73
+
 # Rocketseat - Ignite Lab Design System
 
 ![Design preview for interface](./design/preview.png)
@@ -135,9 +131,5 @@ https://design-system-lab-tascintra.vercel.app
 # Author
 
 - LinkedIn: [linkedin.com/in/tascintra](https://www.linkedin.com/in/tascintra/)
-<<<<<<< HEAD
+
 - Frontend Mentor: [frontendmentor.io/profile/tascintra](https://www.frontendmentor.io/profile/tascintra)
->>>>>>> ca37c1c (files updated)
-=======
-- Frontend Mentor: [frontendmentor.io/profile/tascintra](https://www.frontendmentor.io/profile/tascintra)
->>>>>>> ca37c1c3ccbf4e4a1b766ca844244dd7b95b7e73
